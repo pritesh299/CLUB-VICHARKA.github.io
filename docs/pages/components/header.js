@@ -1,6 +1,6 @@
 
 export default async function GenerateHeader(headerContainer){
-    const origin = window.location.origin + "/docs";
+    const origin = window.location.origin;
     const  headerHTML=`
     <div class="navbar bg-transparent text-white p-4 top-0 z-10 ">
       <div class="navbar-start">
