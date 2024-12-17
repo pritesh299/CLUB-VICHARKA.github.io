@@ -1,6 +1,6 @@
 
 export default async function GenerateFooter(footerContainer){
-    const origin = window.location.origin + "/docs";
+    const origin = window.location.origin;
     const  headerHTML=`
  <div class="footer bg-transparent text-white p-10 flex  justify-center gap-[20vw] items-center z-10">
         <!-- Left Section -->
