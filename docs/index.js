@@ -3,7 +3,9 @@ const footerContainer = document.getElementById("footer")
 import GenerateHeader from "./pages/components/header.js"
 import GenerateFooter from "./pages/components/footer.js"
 
+
 const blob = document.getElementById("blob")
+
 document.body.onpointermove = event => {
   const { clientX, clientY } = event
 
