@@ -25,7 +25,7 @@ export default async function GenerateHeader(headerContainer){
             <li><a href="${origin}/index.html">HOME</a></li>
             <li><a href="${origin}/pages/club.html">CLUB</a></li>
             <li><a href="${origin}/pages/events.html">EVENTS</a></li>
-            <li><a href="${origin}/pages/projects.html">PROJECTS</a></li>
+            <li><a href="${origin}/pages/comming_soon.html">PROJECTS</a></li>
             <li><a href="${origin}/pages/rovers.html"> ROVERS</a></li>
           </ul>
         </div>
@@ -42,7 +42,7 @@ export default async function GenerateHeader(headerContainer){
             <a href="${origin}/pages/events.html" class="">EVENTS</a>
           </li>
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
-            <a href="${origin}/pages/projects.html" class="">PROJECTS</a>
+            <a href="${origin}/pages/comming_soon.html" class="">PROJECTS</a>
           </li>
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
             <a href="${origin}/pages/rovers.html" class="">ROVERS</a>
