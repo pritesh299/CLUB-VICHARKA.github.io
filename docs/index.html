@@ -2,180 +2,56 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <title>CLUB VICHARKA</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+  <title>CLUB VICHARAKA</title>
 </head>
 
 <body
-  class="relative z-0 bg-cover bg-fixed bg-no-repeat  h-[100vh] w-[100vw] bg-gradient-to-b from-blue-800  to-black  overflow-hidden ">
+  class="relative z-0 bg-cover bg-fixed bg-no-repeat h-[100vh] w-[100vw] bg-gradient-to-b from-blue-800 to-black overflow-hidden">
 
+  <!-- Glowing blob -->
   <div id="blob"
     class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border bg-gradient-to-r from-green-200 to-purple-800 rounded-full"
     style="width: 30vw; height: 30vw; max-width: 500px; max-height: 500px;">
   </div>
 
-
-
-  <div id="main_body" class="absolute z-20 h-[100vh] w-full overflow-y-scroll backdrop-blur-[100px]  ">
-    <div id="header"> </div>
-    <div class=" min-h-screen w-full  text-white z-0 flex justify-center items-center">
-      <div class="specialHover p-2 text-center -translate-y-10">
-        <h1
-          class="fontEffect text-5xl md:text-7xl lg:text-9xl font-mono font-semibold p-4 rounded-md tracking-widest hover:bg-white hover:text-black text-white hover:scale-105 ease-in-out duration-300"
-          data-value="VICHARAKA">VICHARAKA</h1>
-        <div class="text-xl md:text-3xl lg:text-4xl font-semibold tracking-widest text-blue-300 p-4 border-blue-300">
-          THE ROBOTICS CLUB</div>
-      </div>
-    </div>
-
-    <div class="flex flex-col p-12 pt-16 justify-around items-center bg-transparent">
-      <!-- Heading Section -->
-      <h1
-        class="text-center text-4xl md:text-7xl lg:text-6xl font-mono font-semibold p-4 rounded-md tracking-widest 
-               text-white hover:bg-white hover:text-black hover:scale-105 transition-transform duration-300 ease-in-out"
-        data-value="VICHARAKA">
-        ABOUT US
-      </h1>
-    
-      <!-- Content Section -->
-      <div class="flex flex-col md:flex-row justify-around w-full m-8 space-y-8 md:space-y-0 md:space-x-8">
-        <!-- Text Section -->
-        <div class="flex flex-col p-4 bg-transparent rounded-lg gap-4">
-          <p class="text-sm md:text-lg lg:text-xl text-white font-medium leading-relaxed text-left lg:w-[37.5vw]">
-            Vicharak is a robotics club at the Indian Institute of Science (IISc) created to facilitate the interest and 
-            projects of undergraduate students passionate about robotics. Established in 2024 by a group of first-year and 
-            second-year students, the club started as a team participating in a rover-building competition and later developed 
-            into a club with a dedicated lab for robotics-related activities.
-            </p>
-          <p class="text-sm md:text-lg lg:text-xl text-white font-medium leading-relaxed text-left lg:w-[37.5vw]">
-            Vicharak is the only club at IISc with such a lab, providing a space where students can work on projects that align 
-            with their interests. The club is funded by IISc, Robot Bosch, and ART PARK, offering members access to resources 
-            and equipment to help bring their ideas to life.
-          </p>
-          <p class="text-sm md:text-lg lg:text-xl text-white font-medium leading-relaxed text-left lg:w-[37.5vw]">
-            Vicharak creates an environment that encourages learning, 
-            collaboration, and hands-on experience in robotics, empowering students to pursue their personal projects and 
-            explore their passion for the field.
-          </p>
-    
-          <div class="flex justify-center items-center mt-6">
-            <a href="./pages/club.html">
-              <button 
-                class="bg-white text-black text-md md:text-xl px-6 py-3 rounded-lg font-semibold 
-                       hover:bg-blue-500 hover:text-white hover:scale-105 transition-transform duration-300">
-                Explore Vicharak Club
-              </button>
-            </a>
-          </div>
-        </div>
-    
-        <!-- Image Section -->
-        <div class="flex items-center justify-center">
-          <div 
-            class="w-[90vw] md:w-[700px] border-4 border-white rounded-3xl overflow-hidden 
-                   hover:scale-105 transition-transform duration-300 shadow-lg ">
-            <img src="./images/club.jpg" alt="Group photo of Vicharak Robotics Club members" class="rounded-3xl">
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-    <div class="flex flex-col justify-around items-center p-8 m-4">
-      <h1
-        class="text-center text-4xl md:text-7xl lg:text-6xl font-mono font-semibold p-4 m-8 rounded-md hover:bg-white hover:text-black text-white ease-in-out duration-300"
-        data-value="OUR SPONSORS">
-        OUR SPONSORS
-      </h1>
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 w-full align-middle justify-items-center p-4">
-        <a href="https://artpark.in/">
-
+  <!-- Main content -->
+  <div id="main_body"
+    class="absolute z-20 h-[100vh] w-full overflow-y-scroll backdrop-blur-[100px]">
+    <div class="min-h-screen w-full text-white flex justify-center items-center">
+      <div class="flex flex-col w-full items-center  justify-around">
+        <!-- Header -->
+        <div class="specialHover p-3 text-center ">
+          <h1
+            class="fontEffect text-5xl md:text-7xl lg:text-9xl font-mono font-semibold p-4 rounded-md tracking-widest hover:bg-white hover:text-black text-white hover:scale-105 ease-in-out duration-300"
+            data-value="VICHARAKA">VICHARAKA</h1>
           <div
-            class=" h-[20vh] xl:w-[25vw]  p-4 bg-white rounded-3xl hover:scale-110 transition-transform duration-500 overflow-hidden flex justify-center items-center">
-            <img src="./images/artpark.png" alt="Artpark Logo" class="w-full h-fullobject-contain">
+            class="text-xl md:text-3xl lg:text-4xl font-semibold tracking-widest text-blue-300 p-4 border-blue-300">
+            THE ROBOTICS CLUB
           </div>
-        </a>
-        <a href="https://cps.iisc.ac.in/"
-          class=" h-[20vh] xl:w-[25vw]  p-4 bg-white rounded-3xl hover:scale-110 transition-transform duration-500 overflow-hidden flex justify-center items-center">
-          <div>
-            <img src="./images/rbccps.png" alt="CPS Logo" class="w-full h-fullobject-contain">
-          </div>
-        </a>
-        <a href="https://iisc.ac.in/">
-          <div
-            class="h-[20vh] xl:w-[25vw] p-4 bg-white rounded-3xl hover:scale-110 transition-transform duration-500 overflow-hidden flex justify-center items-center">
-            <img src="./images/iiiclogo.png" alt="IISC Logo" class="w-full h-fullobject-contain">
-          </div>
-        </a>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex flex-col w-full md:flex-row justify-center items-center gap-4 mt-10">
+          <a href="./club.html">
+            <button
+              class="bg-white text-black text-md w-full md:text-xl px-6 py-3 rounded-lg font-semibold 
+                     hover:bg-blue-500 hover:text-white hover:scale-105 transition-transform duration-300">
+              Explore Vicharaka Club
+            </button>
+          </a>
+          <a href="./activities.html">
+            <button
+              class="bg-white text-black text-md md:text-xl px-6 py-3 rounded-lg font-semibold 
+                     hover:bg-blue-500 hover:text-white hover:scale-105 transition-transform duration-300">
+              Explore Club Activities
+            </button>
+          </a>
+        </div>
       </div>
     </div>
-
-    <div class="p-8 my-16 mx-8 flex flex-col items-center">
-      <h1
-        class=" text-center text-4xl md:text-7xl lg:text-6xl font-mono font-semibold p-4 rounded-md tracking-widest hover:bg-white hover:text-black text-white hover:scale-105 ease-in-out duration-300"
-        data-value="VICHARAKA">CURRENT COORDINATORS</h1>
-
-      <div
-        class=" p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
-
-        <div class="card bg-white text-black font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
-          <figure class="h-72 w-72">
-            <img src="./images/members/Sayak_Maji.jpg" alt="current coordinator" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-tidocs/pages/events.htmltle">Sayak Maji</h2>
-            <p> Batch:2023-2027</p>
-            <p> sayakmaji@iisc.ac.in</p>
-          </div>
-        </div>
-        <div class="card bg-white text-black font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
-          <figure class="h-72 w-72">
-            <img src="./images/members/aldin_nath.jpg" alt="current coordinator" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Aldrin Nath</h2>
-            <p> Batch:2023-2027</p>
-            <p> aldrinnath@iisc.ac.in</p>
-          </div>
-        </div>
-        <div
-          class="card bg-white text-black font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500 rounded-">
-          <figure class="h-72 w-72  ">
-            <img src="./images/members/pritesh_jogdhankar.jpg" alt="current coordinator" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Pritesh Jogdhankar</h2>
-            <p> Batch:2023-2027</p>
-            <p> priteshr@iisc.ac.in</p>
-          </div>
-        </div>
-        <div class="card bg-white text-black font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
-          <figure class="h-72 w-72">
-            <img src="./images/members/kalpesh_bhatnagar.jpg" alt="current coordinator" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Kalpesh Bhatnagar</h2>
-            <p> Batch:2023-2027</p>
-            <p> kalpeshb@iisc.ac.in</p>
-          </div>
-        </div>
-        <div class="card bg-white text-black font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
-          <figure class="h-72 w-72">
-            <img src="./images/members/pratham_gupta.jpg" alt="current coordinator" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Pratham Gupta</h2>
-            <p> Batch:2023-2027</p>
-            <p> prathamgupta@iisc.ac.in</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div id="footer"> </div>
   </div>
 
   <script type="module" src="./index.js"></script>

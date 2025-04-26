@@ -1,0 +1,86 @@
+{
+    "events": [
+      {
+        "event_name": "URC 2024",
+        "event_detail": "Our team unveiled its first prototype of an innovative rover at URC 2024. Engineered to carry up to 100 kg, this rover showcases the strength and technical prowess of our team. Featuring autonomous navigation and advanced communication systems, this marks a significant step toward our ambitions in space exploration. URC 2024 served as the perfect platform to demonstrate the rover’s potential and connect with the broader scientific community, including international peers, evaluators, and space robotics professionals.",
+        "event_date": "2024-02-26",
+        "images_array": [
+          "./images/URC_2024/img_1.jpeg",
+          "./images/URC_2024/img_2.jpeg"
+        ]
+      },
+      {
+        "event_name": "Open Day 2024",
+        "event_detail": "Open Day 2024 at IISc welcomed thousands of curious minds from all over Bangalore. Vicharaka Robotics Club actively participated by setting up an engaging booth showcasing its robotic systems, including autonomous drones, planetary rovers, and perception demos. The event was a great opportunity to interact with the general public, demonstrate hands-on STEM concepts, and inspire young students to pursue careers in science and robotics.",
+        "event_date": "2024-02-26",
+        "images_array": [
+          "./images/openday_2024/img_5.jpeg",
+          "./images/openday_2024/img_1.jpeg",
+          "./images/openday_2024/img_2.jpeg",
+          "./images/openday_2024/img_4.jpeg",
+          "./images/openday_2024/img_3.jpeg"
+        ]
+      },
+      {
+        "event_name": "Introductory Session of Vicharaka",
+        "event_detail": "The Vicharaka Induction 2024 marked the official introduction of the Vicharaka Robotics Club to the incoming batch of students. This event aimed to spark interest in robotics and autonomous systems by showcasing the club’s vision, ongoing projects, and future plans. Attendees were given an overview of the technical facilities available, including dedicated workspaces, tools, and access to mentorship from experienced members. The induction also served as a gateway for students to join a vibrant community of innovators and problem-solvers, fostering collaboration and curiosity among the next generation of robotics enthusiasts.",
+        "event_date": "2024-08-24",
+        "images_array": ["./images/intro_session/img_1.jpg","./images/intro_session/img_2.jpg"]
+      },
+      {
+        "event_name": "Drone Workshop",
+        "event_detail": "This 3–4 week hands-on Drone Workshop provided participants with an immersive experience into the world of UAVs. Conducted by Sayak Maji and Aldrin Nath, the workshop covered essential topics like drone aerodynamics, electronic component selection, PID control, and flight testing. Students built their own drones from scratch, gained practical skills in soldering and assembly, and received mentorship on debugging and improving their designs. The workshop culminated in test flights and performance evaluations.",
+        "event_date": "2024-09-01 to 2024-09-20",
+        "images_array": [
+          "./images/drone_workshop/img_1.jpg",
+          "./images/drone_workshop/img_2.jpg",
+          "./images/drone_workshop/img_2.jpg",
+          "./images/drone_workshop/img_3.jpg",
+          "./images/drone_workshop/img_4.jpg",
+          "./images/drone_workshop/img_5.jpg",
+          "./images/drone_workshop/img_6.jpg",
+          "./images/drone_workshop/img_7.jpg"
+        ]
+      },
+      {
+        "event_name": "ROS Session",
+        "event_detail": "This foundational session introduced students to the Robot Operating System (ROS), one of the most essential tools in modern robotics development. Led by Pritesh Jogdhankar and Pratham Gupta, the session included a mix of theoretical knowledge and live demos, covering topics like ROS nodes, topics, messages, and the use of tools such as `rviz` and `rqt_graph`. Participants were equipped with enough understanding to begin developing basic robotic systems using ROS.",
+        "event_date": "2024-09-24",
+        "images_array": []
+      },
+      {
+        "event_name": "URC 2025",
+        "event_detail": "In preparation for the prestigious University Rover Challenge 2025, the Vicharaka team began development of its next-generation rover in late 2024. Over four months, first and second-year students collaborated intensively, learning the intricacies of mechanical design, embedded systems, software integration, and autonomous algorithms. This preparatory phase not only laid the technical foundation for the competition but also helped nurture future leaders and experts in robotics within the club.",
+        "event_date": "2024-10-20 to 2025-03-01",
+        "images_array": ["./images/URC_2025/img_1.jpg","./images/URC_2025/img_2.jpg"]
+      },
+      {
+        "event_name": "Pravega - RoboOlympics",
+        "event_detail": "As part of IISc’s flagship festival, Pravega 2025, the Vicharaka Robotics Club partnered with event coordinators to organize RoboOlympics—a fun and challenging robotics competition. The event featured multiple mini-challenges testing robot design, obstacle navigation, and real-time control. Students from different institutes participated, turning the event into a celebration of innovation, teamwork, and engineering excellence.",
+        "event_date": "2025-01-29",
+        "images_array": []
+      },
+      {
+        "event_name": "Open Day 2025",
+        "event_detail": "During Open Day 2025, Vicharaka once again opened its doors to the curious public. The club showcased its year-round work, including the latest developments in drone autonomy, computer vision, and space robotics. Club members actively engaged with students, families, and professionals visiting IISc, offering demos, interactive displays, and insight into how robotics is shaping the future. It was a platform to inspire and educate the next generation of tech enthusiasts.",
+        "event_date": "2025-03-01",
+        "images_array": []
+      }
+    ],
+  
+    "activities":[
+      {
+        "activity_name":"URC 2024",
+        "activity_detail":"Participated in URC 2024",
+        "activity_image":"./images/URC_2024/img_3.jpeg",
+        "activity_page_link":"URC_2024.html"
+      },
+      {
+        "activity_name":"URC 2025",
+        "activity_detail":"Participated in URC 2025",
+        "activity_image":"./images/URC_2025/img_2.jpg",
+        "activity_page_link":"URC_2025.html"
+      }
+    ]
+  }
+  

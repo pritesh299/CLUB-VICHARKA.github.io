@@ -1,11 +1,11 @@
 const headerContainer = document.getElementById("header")
 const footerContainer = document.getElementById("footer")
-import GenerateHeader from "./pages/components/header.js"
-import GenerateFooter from "./pages/components/footer.js"
+const eventsContainer = document.getElementById("eventsContainer")
+const activitiesContainer = document.getElementById("activitiesContainer")
+import {GenerateHeader,GenerateFooter,GenerateEvents,GenerateActivities} from "./component.js"
 
 
 const blob = document.getElementById("blob")
-
 document.body.onpointermove = event => {
   const { clientX, clientY } = event
 
@@ -72,6 +72,8 @@ main_body.addEventListener('scroll', () => {
 
 GenerateHeader(headerContainer)
 GenerateFooter(footerContainer)
+GenerateEvents(eventsContainer) 
+GenerateActivities(activitiesContainer) 
 
 
 

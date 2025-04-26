@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Rover</title>
+</head>
+
+<body class="relative z-0 bg-cover bg-fixed bg-no-repeat  h-[100vh] w-[100vw] bg-gradient-to-b from-black to-blue-900 overflow-hidden">
+
+  <div id="blob"
+    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border bg-gradient-to-r from-green-200 to-purple-800 rounded-full"
+    style="width: 30vw; height: 30vw; max-width: 500px; max-height: 500px;">
+  </div>
+
+  <!--Edit body text here-->
+  <div id="main_body" class="absolute z-20 h-[100vh] w-full overflow-y-scroll backdrop-blur-[100px]  ">
+    <div id="header"></div>
+    
+    <div class="w-full p-8 flex flex-col text-white text-center items-center justify-center z-0 mx-auto gap-8">
+      <div class="w-full flex  justify-center">
+        <div class="specialHover p-2 w-full max-w-3xl -translate-y-10 flex-col flex items-center">
+          <div class="hover:bg-white hover:text-black rounded-md fontEffect text-6xl font-semibold tracking-widest text-white p-4 border-blue-300" data-value="URC 2024">
+            URC 2024
+          </div>
+          <div class="mx-auto">
+            <p class="text-lg text-blue-300" data-value="20XX_content">
+              Team Vicharaka is a team by first and second year students in the IISc UG programmes to compete in the University Rover Challenge in 2024. The URC is the world's premier robotics competition for college students, held annually in the Mars Desert Research Station, Utah. URC challenges student teams to design and build the next generation of Mars rovers to work alongside astronauts on the Red Planet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row justify-around items-center  m-8 gap-8">
+      <!-- Image Carousel -->
+      <div class="w-full">
+        <div class="flex flex-col items-center">
+          <div class="carousel w-full lg:w-[40vw] m-4 overflow-hidden rounded-3xl">
+            <div class="carousel-item aspect-video w-full lg:w-[40vw] p-4" id="item0">
+              <img
+                src="./images/URC_2024/img_3.jpeg"
+                alt="URC 2024 Event Photo 1"
+                class="w-full lg:w-[40vw] h-full object-contain rounded-3xl"
+              />
+            </div>
+            <div class="carousel-item aspect-video w-full lg:w-[40vw] p-4" id="item1">
+              <img
+                src="./images/URC_2024/img_2.jpeg"
+                alt="URC 2024 Event Photo 2"
+                class="w-full lg:w-[40vw] h-full object-contain rounded-3xl"
+              />
+            </div>
+            <div class="carousel-item aspect-video w-full lg:w-[40vw] p-4" id="item2">
+              <img
+                src="./images/URC_2024/img_1.jpeg"
+                alt="URC 2024 Event Photo 2"
+                class="w-full lg:w-[40vw] h-full object-contain rounded-3xl"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-center gap-2 py-2">
+            <a href="#item0" class="btn btn-xs sm:btn-sm">1</a>
+            <a href="#item1" class="btn btn-xs sm:btn-sm">2</a>
+            <a href="#item2" class="btn btn-xs sm:btn-sm">3</a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Embedded Video -->
+      <div class="w-full">
+        <div class="aspect-video w-full rounded-lg overflow-hidden shadow-lg">
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/2aNeUtD0Em4"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="p-8 mt-0 mx-8 flex flex-col ">
+      <div class="p-8 mt-0 mx-8 flex flex-col items-center">
+      <h2 class="text-4xl md:text-3xl lg:text-6xl font-mono font-semibold p-4 my-8 rounded-md tracking-widest hover:bg-white hover:text-black text-white" data-value="TEAM STRUCTURE">TEAM STRUCTURE</h2>
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Advisors</h3>
+
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-full object-cover">
+                    <img class="w-full h-full object-cover" src="./images/members/pushpak.jpg" alt="Prof.pushpak jagtap"/>
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Prof. Pushpak Jagtap</h2>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/pandu.jpeg" alt="Prof. Chandrasekaran Pandurangan" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Prof. Chandrasekaran Pandurangan</h2>
+                  </div>
+                </div>
+                <div
+                  class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500 rounded-">
+                  <figure class="h-72 w-72  ">
+                    <img class="w-full h-full object-cover" src="./images/members/koushik.jpg" alt="Prof. Koushik Viswanathan" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Prof. Koushik Viswanathan</h2>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/rajesh.jpg" alt="Prof. Rajesh Sundareshan" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Prof. Rajesh Sundareshan</h2>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/bharadwaj.png" alt="Prof. Bharadwaj Amrutur" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Prof. Bharadwaj Amrutur</h2>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div> 
+
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Project Management</h3>
+
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sidak.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Sidak Singh Grewal</h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sahil.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Sahil Chaudhary</h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div
+                  class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500 rounded-">
+                  <figure class="h-72 w-72  ">
+                    <img class="w-full h-full object-cover" src="./images/members/aditya.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Aditya Gupta</h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div> 
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Mechanical</h3>
+
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/pranav.JPG" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Pranav Kalsi</h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sathvik.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">
+                      Manthri Sathvik</h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div
+                  class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500 rounded-">
+                  <figure class="h-72 w-72  ">
+                    <img class="w-full h-full object-cover" src="./images/members/sanyat.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">
+                      Sanyat Fale</h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div> 
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Life-Detection</h3>
+
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/dhruv.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Dhruv Gupta</h2>
+                    <p> Batch:2021-2025</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/mohar.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">
+                      Mohar Kanti Biswas</h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div
+                  class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500 rounded-">
+                  <figure class="h-72 w-72  ">
+                    <img class="w-full h-full object-cover" src="./images/members/kalyan.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                    Kalyanbrata Chandra</h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Electronics</h3>
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/nithin.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Nitin Vetcha
+                    </h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sayak.png" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">  
+                      Sayak Maji
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div
+                  class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500 rounded-">
+                  <figure class="h-72 w-72  ">
+                    <img class="w-full h-full object-cover" src="./images/members/kalyan.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                    Kalyanbrata Chandra</h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div> 
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Software Development
+            </h3>
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sirjan.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Sirjan Hansda
+                    </h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sathvik.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">  
+                      Manthri Sathvik
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/pratyush.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                      Pratyush Kant
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+
+              </div>
+            </section>
+          </div> 
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Autonomous Navigation System
+            </h3>
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sahil.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Sahil Chaudhary
+                    </h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/armaan.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">  
+                    Armaan Khetarpaul
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/aditya.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                      Aditya Gupta
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/shishir.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                      RK Shishir
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/suhas.JPG" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                    Suhas Vundavili
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div> 
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Robotic Arm
+            </h3>
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/indrayudh.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Indrayudh Das
+                    </h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/pritesh_jogdhankar.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">  
+                      Pritesh Jogdhankar
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/kalpesh_bhatnagar.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                      Kalpesh Bhatnagar
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/pratham.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                    Pratham Gupta
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div> 
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Communication
+            </h3>
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sidak.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">
+                      Sidak Singh Grewal
+                    </h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sayak.png" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">  
+                      Sayak Maji
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/mehul.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                      Mehul Darak
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/pratham.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                    Pratham Gupta
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div> 
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Website Management
+            </h3>
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sahil.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">
+                      Sahil Chaudhary
+                    </h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/pritesh_jogdhankar.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">  
+                      Pritesh Jogdhankar
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sharath.JPG" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                      S Sarath
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/bhuvan.png" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                      Bhuvan Naik
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="p-8 my-8 mx-8 flex flex-col items-center lg:items-start text-center">
+            <h3 class="text-4xl  lg:text-5xl text-white font-mono font-semibold p-4 my-4 rounded-md tracking-widest" data-value="DEPT_1">Socials and Public Relations
+            </h3>
+            <section class="flex flex-col m-auto items-center">
+              <div class="p-4 my-8 grid z-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center ">
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/mehul.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">
+                      Mehul Darak
+                    </h2>
+                    <p> Batch:2022-2026</p>
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/rdx.png" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">  
+                      Rhitabrata Das
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+                <div class="card bg-base-200 text-white font-medium w-72 shadow-xl hover:scale-110 ease-in-out duration-500">
+                  <figure class="h-72 w-72">
+                    <img class="w-full h-full object-cover" src="./images/members/sohan.jpg" alt="current coordinator" />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title">     
+                    Sohan Pattanayak
+                    </h2>
+                    <p> Batch:2022-2026</p>
+
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+
+    </div>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
