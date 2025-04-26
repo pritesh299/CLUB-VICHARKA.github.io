@@ -1,6 +1,6 @@
 
 export  async function GenerateHeader(headerContainer){
-    const origin = window.location.origin + "/docs";
+    const origin = window.location.origin;
     const  headerHTML=`
     <div class="navbar bg-transparent text-white p-4 top-0 z-10 ">
       <div class="navbar-start">
@@ -51,7 +51,7 @@ export  async function GenerateHeader(headerContainer){
 }
 
 export  async function GenerateFooter(footerContainer){
-    const origin = window.location.origin + "/docs";
+    const origin = window.location.origin;
     const  headerHTML=`
 <div class="divider divider-primary w-[80%] m-auto py-8"></div>
 
