@@ -22,22 +22,22 @@ export  async function GenerateHeader(headerContainer){
           <ul
             tabindex="0"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a href="${origin}/index.html">HOME</a></li>
-            <li><a href="${origin}/club.html">CLUB</a></li>
-            <li><a href="${origin}/activities.html">ACTIVITIES</a></li>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./club.html">CLUB</a></li>
+            <li><a href="./activities.html">ACTIVITIES</a></li>
           </ul>
         </div>
       </div>
       <div class="navbar-center hidden w-3/4 lg:flex">
         <ul class="menu menu-horizontal p-4 mx-8 text-xl w-full justify-around">
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
-            <a href="${origin}/index.html" class="">HOME</a>
+            <a href="./index.html" class="">HOME</a>
           </li>
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
-            <a href="${origin}/club.html" class="">CLUB</a>
+            <a href="./club.html" class="">CLUB</a>
           </li>
           <li class="specialHover btn btn-ghost p-2 text-xl font-semibold hover:underline underline-offset-4">
-            <a href="${origin}/activities.html" class="">ACTIVITIES</a>
+            <a href="./activities.html" class="">ACTIVITIES</a>
           </li>
         </ul>
       </div>
@@ -58,8 +58,8 @@ export  async function GenerateFooter(footerContainer){
 <div class="footer bg-transparent text-white p-4 lg:p-10 flex flex-col md:flex-row justify-center md:justify-around gap-8 md:gap-[20vw] items-center z-10">
   <!-- Left Section -->
   <div class="flex flex-col items-center mb-6 md:mb-0">
-    <a href="${origin}">
-      <img src="${origin}/images/vicharaka.png" class="w-40 h-28 md:w-80 md:h-52 bg-gray-300 rounded-3xl hover:scale-110 ease-in-out duration-200">
+    <a href=".">
+      <img src="./images/vicharaka.png" class="w-40 h-28 md:w-80 md:h-52 bg-gray-300 rounded-3xl hover:scale-110 ease-in-out duration-200">
     </a>
   </div>
 
@@ -72,17 +72,17 @@ export  async function GenerateFooter(footerContainer){
     <h3 class="text-xl font-semibold mt-4 mb-2">Contact us</h3>
     <div class="flex justify-center md:justify-start space-x-4 mb-4">
       <a href="#">
-        <img src="${origin}/images/github.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
+        <img src="./images/github.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
       </a>
       <a href="#">
-        <img src="${origin}/images/linkedin.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
+        <img src="./images/linkedin.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
       </a>
       <a href="#">
-        <img src="${origin}/images/instagram.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
+        <img src="./images/instagram.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
       </a>
 
       <a href="#">
-        <img src="${origin}/images/youtube.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
+        <img src="./images/youtube.png" class="w-10 h-10 hover:scale-150 ease-in-out duration-300">
       </a>
     </div>
     <p class="text-lg">vicharaka@iisc.ac.in</p>
